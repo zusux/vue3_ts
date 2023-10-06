@@ -1,0 +1,19 @@
+@import './base.css';
+@import './tabler.min.css';
+@import './tabler-flags.min.css';
+@import './tabler-payments.css';
+@import './tabler-vendors.min.css';
+
+@import url('https://rsms.me/inter/inter.css');
+:root {
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+}
+body {
+    font-feature-settings: "cv03", "cv04", "cv11";
+}
+
+
+// // Import all of Bootstrap's CSS
+// @import "bootstrap/scss/bootstrap";
+// // 图标
+// @import 'bootstrap-icons/font/bootstrap-icons.css';
